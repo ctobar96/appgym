@@ -1,0 +1,26 @@
+# Entornos virtuales y Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Node / React / Vite
+node_modules/
+frontend/dist/
+.vite/
+
+# Variables de entorno y secretos (NUNCA subir .env real)
+.env
+.env.local
+.env.*.local
+
+# Datos personales CSV (descomenta las siguientes 2 líneas si el repo es Público)
+# etl/data/*.csv
+
+# Docker y sistema operativo
+pgdata/
+.DS_Store
+Thumbs.db
